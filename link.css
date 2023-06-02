@@ -1,0 +1,56 @@
+/* Estilo do texto */
+.texto-destaque {
+    color: #b44949; /* Cor do texto: vermelho */
+    font-size: 35px; /* Tamanho da fonte: 24 pixels */
+    font-weight: bold; /* Peso da fonte: negrito */
+    font-style: italic; /* Estilo da fonte: itálico */
+
+    font-family: Arial, sans-serif; /* Família da fonte: Arial ou uma fonte sans-serif genérica */
+    text-align: center; /* Alinhamento do texto: centralizado */
+    text-transform: uppercase; /* Transformação do texto: maiúsculas */
+    letter-spacing: 10px; /* Espaçamento entre as letras: 2 pixels */
+    line-height: 1.5; /* Altura da linha: 1.5 vezes o tamanho da fonte */
+  }
+
+    .botão{
+      height:50px;
+      width:250px;
+      background-color: rgb(236, 152, 152);
+      border-color: rgb(107, 46, 46);
+      border-style: solid;
+      border-radius: 10px;
+      font-size: 20px;
+      
+    }
+    .botão:hover{
+      background-color: rgb(255, 255, 255);
+      border-color: gainsboro;
+      cursor: pointer;
+    }
+.secret{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .botao-centralizado2{
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .video {
+      width: 200px;
+      margin: 0 auto;
+      width: 200px;
+
+  }
+
+  .texto-sub {
+    color: #b44949; /* Cor do texto: vermelho */
+    font-size: 30px; /* Tamanho da fonte: 24 pixels */
+    font-weight: bold; /* Peso da fonte: negrito */
+    font-style: italic; /* Estilo da fonte: itálico */
+
+  
+  }

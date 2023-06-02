@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="link.css" rel="stylesheet">
+
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <div>
+             <p class="texto-destaque">fundamentos cyberfisicos</p>
+          </div>
+          <div>
+            <p class="texto-sub">Formalização do projeto (4 Hs atividade TDE)</p>
+         </div>
+          <p>1 - O que vamos resolver e porque vamos resolver?
+
+ 
+
+            Poluição luminosa. Este será o core deste projeto. Com o passar dos anos e o avanço dos grandes centros urbanos, as cidades foram se tornando cada vez mais iluminada, atuando, até mesmo, como uma gradação de progresso. Haja vista que centros urbanos sempre foram caracterizados como as cidades que nunca dormem, ou cidades-luz, enquanto cidades menores quase sempre são retratadas como o completo oposto, sendo pequenas, escuras e ermas.
+            
+            Contudo, o dito cujo progresso, trouxe consigo um duro ônus, que é a poluição luminosa. Talvez, caro leitor, você se questione, “como uma rua iluminada pode vir a ser algo ruim? ”. A reposta, porém, pode ser decepcionante, pois uma única rua iluminada não é o problema. Mas o problema reside quando temos uma centena de ruas mega-iluminadas.
+            
+            O excesso de luz em cidades, chamado de poluição luminosa, é um grande agente de morte para várias espécies de animais, principalmente os noturnos. Pois, sem saber diferenciar a luz do led dos postes da luz solar, inúmeras espécies tem sua rotina biológica profundamente adulterada, fazendo com que eles se tornem incapazes de caçar e até mesmo reproduzir.
+            
+            Outro problema causado pela poluição luminosa está na perca do céu estrelado noturno, o que acaba prejudicando não só a estética da noite, mas também impossibilita a pesquisa astrológica, haja vista que a radiação luminosa impossibilita o devido funcionamento de telescópios e demais equipamentos e sensores inerentes à astronomia.
+            
+            Portanto, o foco deste projeto está no controle da radiação de luz através da redução da poluição luminosa, visando a proteção de espécies noturnas e também a economia, tanto no consumo, quanto nos gastos, com energia elétrica nas grandes cidades.<br>
+            
+             
+            
+             
+            
+            2 - Qual controlador vamos utilizar (recomenda-se esp32 para a disciplina).
+            
+             
+            
+            Considerando tanto o conteúdo do projeto, quanto os conhecimentos obtidos até o presente momento na disciplina, adotaremos, como controlador, o esp32.<br>
+            
+             
+            
+            3 - Quais sensores pretendemos utilizar (pelo menos 2).
+            
+            Para o sistema de iluminação pública inteligente, serão necessários dois sensores: um sensor de luz (LDR - Light Dependent Resistor) e um sensor de movimento (PIR - Passive Infrared Sensor).<br>
+            
+             
+            
+            4 - Como pretendemos resolver (observando-se que o controlador deve se comunicar com a internet a outro dispositivo de iot)?
+            
+            Conforme dito anteriormente, utilizaremos um sensor de luz – LDR e um sensor de movimento - PIR
+            
+            O sensor de luz é responsável por detectar a intensidade da luz ambiente e informar ao controlador esp32 para ajustar a intensidade das luminárias de acordo com a necessidade. Este sensor funciona com base na variação da resistência elétrica em resposta à variação da luz incidente. Quanto maior a intensidade de luz, menor é a resistência e, portanto, maior é a corrente elétrica que passa pelo sensor.
+            
+            Já o sensor de movimento PIR é responsável por detectar a presença de pessoas ou veículos na área e informar ao controlador eso32 para acionar ou desligar as luminárias. Este sensor funciona detectando a radiação infravermelha emitida pelos corpos em movimento. Quando um objeto emite radiação infravermelha, o sensor PIR detecta e envia um sinal elétrico para o controlador esp32 para acionar as luminárias.
+            
+            O sensor de luz, LDR, será o responsável por detectar se é dia ou noite. Partindo do princípio que a iluminação pública somente será acionada durante a noite, ou períodos de baixa luminosidade natural, como, por exemplo, tempestades.
+            
+            Já o sensor de movimento, PIR, será o responsável por informar se a via tem tráfego ou não. Tanto humano quanto veicular. Caso a iluminação pública esteja ligada (noite ou tempestade) e não haja tráfego, a iluminação será menos intensa. Já se há trafego, a iluminação pública será mais intensa.
+            
+            Todos estes dados serão enviados ao computador da central de energia do município através da internet, o qual poderá produzir relatórios mapeando as áreas em que uma iluminação mais intensa é necessária, e áreas em que a iluminação pode ser mais suave.
+            
+            Utilizando estes dois sensores, junto ao controlador esp32, é possível criar um sistema de iluminação pública inteligente, econômico e ecológico, contribuindo para a construção de cidades mais inteligentes, sustentáveis e harmônicas com o meio ambiente.<br>
+            
+             
+            
+            5 - Quais atividades cada integrante do grupo deverá resolver?
+            
+            Os integrantes, Antônio Augusto Bandeira de Oliveira; Gabriel Antony Olsson Schlagenhaufer; Igor Terplak Gutierrez; e Jonas Oliveira de Assis serão igualmente responsáveis pela pesquisa e desenvolvimento do projeto, respeitando seus interesses pessoais e conhecimentos inatos.
+            
+            Contudo, para fins de formalização, O integrante Jonas será o responsável pela pesquisa dos índices de luminosidade que podem ser considerados “aceitáveis” dentro de uma cidade, considerando a segurança dos cidadãos e também a harmonia com o meio-ambiente.
+            
+            O integrante Igor será responsável pelo know-how do sensor de luz – LDR enquanto o integrante Antônio será igualmente responsável pelo sensor de movimento PIR.
+            
+            Enquanto o integrante Gabriel será o responsável pela programação do controlador, com o auxílio inabalável de toda a equipe.<br>
+            
+             
+            
+            6 - Um cronograma inicial de como será feito o projeto, observando que a data máxima de apresentação do projeto será 19/06.
+            
+            Até o dia 29/05/2023 todas as pesquisas devem ter sido realizadas, a ponto de que cada integrante tenha conhecimento de sua função e consiga transmitir aos demais integrantes, a fim de que todos tenham conhecimento do projeto em sua integra.
+            
+            Posteriormente, nos dias seguintes, observada a data limite de 12/06/2023, o projeto precisa estar finalizado, haja vista que os sete dias finais serão dedicados exclusivamente para a correção de eventuais erros (bugs) e organização da apresentação.</p><br>
+            
+            
+            <div>
+                <p class="texto-sub">Trabalho Sistemas Operacionais</p>
+             </div>
+       
+            <div class="pdf-container">
+            
+                <iframe src="trabalho cyber.pdf" width="100%" height="90%"></iframe>
+              </div>
+            
+            <button onclick="window.location.href= 'index.html'"class="botão">voltar</button><br>
+
+    </body>
+</html>
