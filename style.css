@@ -5,10 +5,13 @@ body{
     background-color: #000000;
     font-family: 'Rubik', sans-serif;
     color: #e0e1dd;
-    background-image:"pexels-jvbuenconcejo-2719301.jpg";
+    background-image: url("https://cdn.discordapp.com/attachments/706148419479273495/1247969205676937246/pexels-sevda-ozdemir-30985330-14978007.jpg?ex=6661f564&is=6660a3e4&hm=1d94c39e230ae252016aa1cb36d7e460e2f7aed35776ce9c1ce3f5f480ca2a38&");
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: -10%;
+    background-position-y: 10%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .main{
